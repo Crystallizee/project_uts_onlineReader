@@ -4,6 +4,7 @@
 .card {
   display: inline-block;
   margin: 10px;
+  color: black !important;
 }
 h2 {
   margin-top: 40px;
@@ -13,12 +14,8 @@ h2 {
   width: 100%;
   background-color: #0000;
   padding: 20px;
-  margin-top: 50px;
 }
 
-.dropdown {
-  display: block;
-}
 /* dark mode */
 
 body {

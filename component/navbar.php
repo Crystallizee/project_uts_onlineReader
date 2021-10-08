@@ -47,7 +47,7 @@
           </li>
         </ul>
         <!-- if else login -->
-        <li class="nav-item dropdown">
+        <i class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
             ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
               <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -57,7 +57,7 @@
             <li><a class="dropdown-item" href="#">Sign in</a></li>
             <li><a class="dropdown-item" href="#">Register</a></li>
           </ul>
-        </li>
+        </i>
       </div>
     </div>
   </nav>
