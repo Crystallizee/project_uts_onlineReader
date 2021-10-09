@@ -54,8 +54,9 @@
               <circle cx="12" cy="7" r="4"></circle></svg
           ></a>
           <ul class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Sign in</a></li>
-            <li><a class="dropdown-item" href="#">Register</a></li>
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">My Book</a></li>
+            <li><a class="dropdown-item" href="#">Log out</a></li>
           </ul>
         </i>
       </div>
