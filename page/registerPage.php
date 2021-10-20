@@ -25,6 +25,10 @@
                     <div class="card-body">
                         <form action="../process/registerProcess.php" method="post">
                             <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">photo</label>
+                                <input class="form-control" id="photo" name="photo" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Name</label>
                                 <input class="form-control" id="name" name="name" aria-describedby="emailHelp">
                             </div>
@@ -44,10 +48,7 @@
                                 <label for="exampleInputEmail1" class="form-label">phone</label>
                                 <input class="form-control" id="phone" name="phone" aria-describedby="emailHelp">
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">photo</label>
-                                <input class="form-control" id="photo" name="photo" aria-describedby="emailHelp">
-                            </div>
+
 
                             <div class="d-grid gap-2">
                                 <button type="submit" class="btn btn-primary" name="register">Register</button>

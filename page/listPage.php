@@ -2,7 +2,7 @@
     include '../component/navbar.php'
 ?>    
     <!-- Content -->
-    <div class="content">
+    <div class="content mt-5" id="listPage" >
       <!-- Body -->
         <div class="container">
             <table class="table-bordered" width="100%" >
