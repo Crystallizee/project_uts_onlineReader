@@ -2,15 +2,15 @@
     if(isset($_POST['login'])){
         include('../db.php');
         
-        $username = $_POST['username'];
+        $email = $_POST['email'];
         $password = $_POST['password'];
 
-        $query = mysqli_query($con, "SELECT * FROM users WHERE username = '$username'") or die(mysqli_error($con));
+        $query = mysqli_query($con, "SELECT * FROM users WHERE email = '$email'") or die(mysqli_error($con));
         
         if(mysqli_num_rows($query) == 0){
             echo
             '<script>
-            alert("Username not found!"); window.location = "../page/loginPage.php"
+            alert("email not found!"); window.location = "../page/loginPage.php"
             </script>';
         }else{
             $user = mysqli_fetch_assoc($query);
@@ -23,10 +23,10 @@
 
                 echo
                 '<script>
-                alert("Login Success"); window.location = "../page/listPage.php"
+                alert("Login Success"); window.location = "../page/index.php"
                 </script>';
             }else {
-                echo
+                echo    
                 '<script>
                 alert("Username or Password Invalid");
                 window.location  = "../page/loginPage.php"

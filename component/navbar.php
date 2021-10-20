@@ -63,7 +63,7 @@
                 <ul class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Account</a></li>
                   <li><a class="dropdown-item" href="#">My Book</a></li>
-                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                  <li><a class="dropdown-item" href="../process/logoutProcess.php">Log out</a></li>
                 </ul>
               </i>
             </div>

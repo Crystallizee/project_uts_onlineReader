@@ -25,16 +25,8 @@
                     <div class="card-body">
                         <form action="../process/registerProcess.php" method="post">
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">photo</label>
-                                <input class="form-control" id="photo" name="photo" aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Name</label>
                                 <input class="form-control" id="name" name="name" aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Username</label>
-                                <input class="form-control" id="username" name="username" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
