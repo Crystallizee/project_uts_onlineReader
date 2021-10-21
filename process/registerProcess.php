@@ -21,6 +21,8 @@
     $query = mysqli_query($con,$sql) or die(mysqli_error($con));
     if(mysqli_num_rows($query) > 0){
         echo '<script>alert("Email sudah terdaftar");</script>';
+        echo'<script>window.location= "../page/registerPage.php"</script>';
+
     }else {
         echo '<script>alert("Silahkan Cek Email Anda untuk Verifikasi...")</script>';
         $sql = "INSERT INTO users (name,password,email,phone,verif_code)
@@ -47,7 +49,7 @@
     //SMTP::DEBUG_OFF = off (for production use)
     //SMTP::DEBUG_CLIENT = client messages
     //SMTP::DEBUG_SERVER = client and server messages
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+    $mail->SMTPDebug = SMTP::DEBUG_OFF;
 
     //Set the hostname of the mail server
     $mail->Host = 'smtp.gmail.com';

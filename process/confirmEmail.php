@@ -11,7 +11,8 @@
             $sql =  "UPDATE users set is_verified=1 where id=$id";
             $query = mysqli_query($con,$sql);
             if($query){
-                echo "VERIFIKASI BERHASIL ";
+                echo '<script>alert("verifikasi berhasil");</script>';
+                echo'<script>window.location= "../page/loginPage.php"</script>';
             }else{
                 echo "VERIFIKASI GAGAL ERROR : ".$query;
             }
