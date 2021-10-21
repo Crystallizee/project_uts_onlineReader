@@ -11,10 +11,9 @@
           </div>
           <div class="col">
             <ul>
-                <li>About</li>
-                <li>Home</li>
-                <li>Agreement</li>
-                <li>zzzzzzzzz</li>
+                <li><a href="#" class="text-light">About</a></li>
+                <li><a href="../page/index.php" class="text-light">Home</a></li>
+                <li><a href="#" class="text-light">Agreement</a></li>
             </ul>
           </div>
           <div class="col text-center">
