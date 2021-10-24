@@ -19,7 +19,10 @@
                 session_start();
 
                 $_SESSION['isLogin'] = true;
-                $_SESSION['user'] = $user;
+                $_SESSION['id'] = $user['id'];
+                $_SESSION['name'] = $user['name'];
+                $_SESSION['email'] = $user['email'];
+                $_SESSION['phone'] = $user['phone'];
 
                 echo
                 '<script>

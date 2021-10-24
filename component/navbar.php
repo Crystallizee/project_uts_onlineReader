@@ -4,7 +4,9 @@
         header("location: ../page/loginPage.php");
     }else {
         include('../db.php');
+
     }
+
      echo '<!DOCTYPE html>
       <html lang="en">
         <head>
@@ -38,19 +40,7 @@
                   <a class="nav-link active" aria-current="page" href="../page/index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Series</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Genre</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="../page/listPage.php">List</a>
-                </li>
-                <li>
-                  <form class="d-flex">
-                    <input class="form-control me-3 ms-4 col-5" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
                 </li>
               </ul>
               <!-- if else login -->
@@ -61,7 +51,7 @@
                     <circle cx="12" cy="7" r="4"></circle></svg
                 ></a>
                 <ul class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Account</a></li>
+                  <li><a class="dropdown-item" href="../page/showAccount.php">Account</a></li>
                   <li><a class="dropdown-item" href="#">My Book</a></li>
                   <li><a class="dropdown-item" href="../process/logoutProcess.php">Log out</a></li>
                 </ul>

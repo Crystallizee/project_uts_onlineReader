@@ -1,4 +1,4 @@
-<div class="footer bg-dark text-light">
+<div class="footer bg-dark text-light mt-5">
         <div class="container">
         <div class="row align-items-start">
           <div class="col text-center">
@@ -17,7 +17,7 @@
             </ul>
           </div>
           <div class="col text-center">
-            <p>©2021 NovelReader</p>
+            <p> &copy 2021 NovelReader</p>
           </div>
         </div>
           </div>

@@ -71,10 +71,11 @@
     $mail->SMTPAuth = true;
 
     //Username to use for SMTP authentication - use full email address for gmail
-    $mail->Username = 'aaaaktuator@gmail.com';
+    $mail->Username = 'allitemssss1@gmail.com
+    ';
 
     //Password to use for SMTP authentication
-    $mail->Password = '@4ktu@tor';
+    $mail->Password = 'petakumpet123';
 
     //Set who the message is to be sent from
     //Note that with gmail you can only use your account address (same as `Username`)
@@ -94,7 +95,7 @@
 
     //Read an HTML message body from an external file, convert referenced images to embedded,
     //convert HTML into a basic plain-text alternative body
-    $body = "Hi,".$name."<br>Please verif your email before access our website : <br> http://localhost/project_uts_onlineReader/process/confirmEmail.php?code=".$code;
+    $body = "Hi,".$name."<br>Please verif your email before access our website : <br> http://localhost/project_uts_onlineReader-1/process/confirmEmail.php?code=".$code;
     $mail->Body = $body;
     //Replace the plain text body with one created manually
     $mail->AltBody = 'Verification Account';

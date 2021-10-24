@@ -5,7 +5,7 @@
     <div class="content mt-5" id="addPage" >
       <!-- Body -->
         <div class="container">
-            <form action="../process/createProcess" method="post" enctype="multipart/form-data">
+            <form action="../process/createProcess.php" method="post" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="ilustrasi" class="form-label">Ilustrasi</label>
                     <input type="text" class="form-control" id="ilustrasi" name="ilustrasi">
