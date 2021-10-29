@@ -17,7 +17,7 @@
                 echo "VERIFIKASI GAGAL ERROR : ".$query;
             }
         }else {
-            echo "CODE TIDAK DITEMUKAN ATAU TIDAK VALID";
+            echo "Code tidak ditemukan atau tidak valid";
         }
     }else {
         echo "code ga nih";
